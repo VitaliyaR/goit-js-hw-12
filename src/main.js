@@ -87,7 +87,7 @@ import {
         currentImages = [...currentImages, ...newImages];
         createGallery(newImages);
   
-        // >>> Додаємо плавне прокручування <<< 
+      
         const firstCard = document.querySelector('.gallery-item');
         if (firstCard) {
           const { height } = firstCard.getBoundingClientRect();

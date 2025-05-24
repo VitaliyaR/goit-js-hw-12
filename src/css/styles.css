@@ -15,7 +15,7 @@
   display: none;
 }
 
-/* Стилі для контейнера галереї */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@
   margin-right: 5px;
 }
 
-/* Стилі для кожної картки */
+
 .gallery-item {
   /*flex: 0 0 calc(33.333% - 20px);*/
   flex: 0 0 calc(20% - 20px); 
